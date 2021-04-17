@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const handleNewItemFormSubmit = function (event) {
     event.preventDefault();
     const buttonParagraph = document.querySelector('#submit-result');
-    buttonParagraph.textContent = "Movies List:";
+    buttonParagraph.textContent = "Favourite movies list:";
     const moviesListItem = createMoviesListItem(event.target);
     const moviesList = document.querySelector('#movies-list'); 
     //if we want to access an element/ unorderd list with the ID 'movies-list' 
